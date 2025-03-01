@@ -26,7 +26,7 @@ const VideoCall = () => {
     }
 
     // Connect to signaling server
-    socketRef.current = io('http://localhost:5001');
+    socketRef.current = io('http://localhost:3000');
     const socket = socketRef.current;
 
     // Get local media stream
